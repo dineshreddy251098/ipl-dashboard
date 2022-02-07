@@ -1,0 +1,32 @@
+.recent-match-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 40%;
+}
+.recent-match-logo {
+  width: 220px;
+  height: 220px;
+  margin-top: 22px;
+}
+.recent-team-name {
+  font-size: 32px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  font-family: 'bree serif';
+}
+.result {
+  font-size: 24px;
+}
+.red {
+  color: #d91c1f;
+}
+.green {
+  color: green;
+}

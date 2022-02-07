@@ -1,0 +1,35 @@
+.team-list-container {
+  width: 45%;
+  border: 2px solid #fff;
+  background: rgb(255, 255, 255, 0.1);
+  display: flex;
+  padding: 14px;
+  border-radius: 18px;
+  margin-bottom: 16px;
+}
+.team-card-container {
+  display: flex;
+}
+.team-image {
+  width: 80px;
+  height: 100px;
+}
+@media screen and (max-width: 768px) {
+  .team-image {
+    width: 60px;
+    height: 80px;
+  }
+}
+.team-name {
+  font-size: 22px;
+  text-align: center;
+  font-family: 'bree serif';
+  font-weight: 600;
+  padding-left: 10px;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .team-name {
+    font-size: 16px;
+  }
+}
